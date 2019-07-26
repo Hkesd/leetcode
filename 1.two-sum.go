@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func twoSum(nums []int, target int) []int {
 	numsMap := make(map[int]int)
 
@@ -17,9 +15,9 @@ func twoSum(nums []int, target int) []int {
 	return []int {0}
 }
 
-func main() {
-	nums := []int {3, 3}
-	target := 6
-	re := twoSum(nums, target)
-	fmt.Println(re)
-}
+//func main() {
+//	nums := []int {3, 3}
+//	target := 6
+//	re := twoSum(nums, target)
+//	fmt.Println(re)
+//}
